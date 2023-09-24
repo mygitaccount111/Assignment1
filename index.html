@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG with Colorful Background</title>
+    <style>
+        /* CSS for the colorful background */
+        body {
+            background: rgb(2, 0, 36);
+            background: linear-gradient(0deg, rgb(249, 83, 221) 30%,  rgba(235, 149, 149, 1) 40%, rgba(0, 212, 255, 1) 100%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .svg-container {
+            margin: 10px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="svg-container">
+        <object data="cleaned_svg_file.svg" type="image/svg+xml" width="500px" height="700px">
+            Your browser does not support SVG
+        </object>
+        <br/><br/><br/>
+        <object data="text.svg" type="image/svg+xml">
+            Your browser does not support SVG
+        </object>
+        <object data="dog.svg" type="image/svg+xml">
+            Your browser does not support SVG
+        </object>
+    </div>
+</body>
+
+</html>
